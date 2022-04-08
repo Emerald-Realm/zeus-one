@@ -9,28 +9,30 @@
     >
       <p class="hello">Hello I am</p>
       <p class="zeus text-primary-dark font-bold text-4xl dark:text-primary">
-        ZEUS<br />STORMHEART.
+        Oyegoke Praise.
       </p>
-      <p class="job">UX/UI DESIGNER</p>
+      <p class="job font-semibold">FRONTEND DEVELOPER<br />UX/UI DESIGNER</p>
     </div>
     <div class="intro-img w-60 m-auto flex-shrink-0">
-      <img :src="gmt" class="w-full" alt="zeus" />
+      <img :src="logo" class="w-full" alt="zeus" />
     </div>
     <p
       class="intro-quote italic text-primary self-center md:self-end text-sm flex-shrink dark:text-white"
     >
-      Light and Fast is the Winner
+      Utility and Beauty to Bring Simplicity
     </p>
   </div>
 </template>
 
 <script>
+import logo from '../../assets/oyegokepraise.png'
 import gmt from "../../assets/media/images/GMT- master.png";
 
 export default {
   name: "intro",
   data() {
     return {
+      logo,
       gmt,
     };
   },

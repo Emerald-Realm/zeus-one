@@ -2,7 +2,7 @@
   <div
     class="philosophy p-20 bg-no-repeat bg-cover md:bg-contain md:bg-repeat
     flex text-center item-center justify-center"
-    :style="{ backgroundImage: `url(${sabo})` }"
+    :style="{ backgroundImage: `url(${banner})` }"
   >
   <!-- <div
     class="philosophy p-20 sm:bg-top sm:bg-cover flex align-middle justify-center
@@ -14,13 +14,13 @@
 </template>
 
 <script>
-import sabo from "../../assets/media/images/sabo.jpg";
+import banner from "../../assets/media/images/praise banner.png";
 
 export default {
   name: "philosophy",
   data() {
     return {
-      sabo,
+      banner,
     };
   },
 };

@@ -1,11 +1,11 @@
 <template>
   <div class="footer-component text-white bg-primary-bgDark md:px-40 dark:text-gray-300">
     <div class="footer p-5">
-      <div class="footer-content grid-cols-1">
+      <!-- <div class="footer-content grid-cols-1">
         <p class="privacy">Privacy Policy</p>
         <p class="about">About</p>
         <p class="contact">Contact</p>
-      </div>
+      </div> -->
       <div class="newsletter-content">
         <p class="subscribe">Subscribe to my newsletter</p>
         <Form class="my-2 newsletter-form max-w-md" @submit="handleNewsLetter">
@@ -26,7 +26,7 @@
         </Form>
       </div>
     </div>
-    <p class="copyright text-center py-1">ZEUS &copy; 2021</p>
+    <p class="copyright text-center py-1">Oyegoke Praise &copy; 2022</p>
   </div>
 </template>
 

@@ -4,11 +4,8 @@
     text-center z-10 uppercase text-xs dark:bg-gray-700"
     id="header-component"
   >
-    <div class="logo-bar flex justify-between md:justify-none items-center flex-shrink-0">
-      <!-- <div class="logo w-full flex flex-col items-center justify-center"> -->
-        <img :src="logo" class="logo-image min-w-md max-w-2xl" alt="logo">
-        <!-- logo -->
-      <!-- </div> -->
+    <div class="logo-bar flex justify-between md:justify-none items-center font-bold text-xl flex-shrink-0">
+        <a href="#"><span @click="scrollToTop"> Oyegoke Praise </span></a>    
       <button
         class="mobile-menu p-1 md:hidden"
         @click="mobileMenu = !mobileMenu"
@@ -30,7 +27,7 @@
         <a href="#projects-component" class="block">projects</a>
         <a href="#about-component" class="block">about</a>
         <a href="#contact-component" class="block">contact</a>
-        <a href="#"><span @click="scrollToTop">top</span></a>
+        <a href="#"><span @click="scrollToTop">top</span></a>    
       </div>
     </transition>
     <div
@@ -46,15 +43,15 @@
     <div
       class="desktop-link-bar hidden social-links md:flex flex-row justify-center items-center gap-4 flex-shrink"
     >
-      <p class="social">twitter</p>
-      <p class="social">facebook</p>
-      <p class="social">instagram</p>
+      <a href="https://mobile.twitter.com/OyegokePraise" class="social">twitter</a>
+      <a href="https://www.facebook.com/praise.oyegoke.1" class="social">facebook</a>
+      <a href="https://www.linkedin.com/in/oyegoke-praise-755872210" class="social">LinkedIn</a>
     </div>
   </div>
 </template>
 
 <script>
-import logo from '../assets/zeus.svg'
+import logo from '../assets/oyegokepraise.png'
 
 export default {
   name: "TheHeader",

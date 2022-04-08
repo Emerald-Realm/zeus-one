@@ -22,7 +22,7 @@
             of user interactions and creating innovative product experience for
             users
           </p>
-          <track-record />
+          <!-- <track-record /> -->
         </div>
       </div>
     </div>

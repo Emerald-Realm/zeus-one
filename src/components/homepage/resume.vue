@@ -18,7 +18,7 @@
             {{ resume.title }}
           </p>
           <p class="resume-projects ">
-            {{ resume.projects }} projects completed
+            <!-- {{ resume.projects }} projects completed -->
           </p>
           <p class="resume-years">
             {{ resume.years }} years of exprience

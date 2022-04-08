@@ -59,8 +59,7 @@ button:focus {
   a:link {
     padding: 0.2rem;
     border-radius: 0.05rem;
-    background: linear-gradient(var(--primary_color_DEFAULT) 0 0) bottom /
-      var(--d, 0) 2px no-repeat;
+    background: linear-gradient(var(--primary_color_DEFAULT) 0 0) bottom / var(--d, 0) 2px no-repeat;
     transition: 0.3s all ease-out;
   }
 
@@ -86,7 +85,9 @@ button:focus {
   box-shadow: 1px 2px 0.29rem red;
   max-height: 20rem;
 }
-input,textarea {
+
+input,
+textarea {
   width: 100%;
   border-radius: 0.4rem;
   padding: 0.5rem !important;
@@ -99,6 +100,20 @@ label {
 input[type="submit"] {
   max-width: 20rem !important;
 }
+
+
+  .cool {
+    color: white;
+    padding: 0.2rem;
+    border-radius: 0.05rem;
+    background: linear-gradient(var(--white) 0 0) bottom / var(--d, 0) 2px no-repeat;
+    transition: 0.3s all ease-out;
+  }
+
+  .cool:hover {
+    color: var(--white);
+    --d: 100%;
+  }
 
 .footer {
   display: grid;

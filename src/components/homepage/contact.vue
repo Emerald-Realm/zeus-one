@@ -1,6 +1,6 @@
 <template>
   <div class="phi-contact" id="contact-component">
-    <philosophy />
+    <!-- <philosophy /> -->
     <div
       class="contact px-4 py-5 md:grid grid-cols-2 md:gap-8 bg-primary-bgLight dark:bg-gray-500 md:px-40"
     >
@@ -9,15 +9,15 @@
         <p
           class="contact-title font-bold text-xl uppercase text-primary-dark py-1 dark:text-gray-200"
         >
-          I've been<br />waiting for you
+          Contact Me
         </p>
 
-        <div class="contact-content">
+        <div class="contact-content text-white font-bold">
           <div class="contact-intro">
-            <p class="number">+123456789</p>
-            <div class="email">Zeusthe original@olympus.com</div>
-            <div class="address">Asgard 123 patheon street</div>
-            <div class="socal-links"></div>
+            <p class="number">Phone: +2348135041140</p>
+            <div class="email">Mail: iyinoluwa05@gmail.com</div>
+            <div class="address">Location: Osun state, Nigeria</div>
+            <!-- <div class="socal-links"></div> -->
           </div>
         </div>
       </div>
@@ -47,7 +47,7 @@
         <div
           class="form-control py-1 font-semibold text-md text-primary-dark focus:border-primary dark:text-gray-300"
         >
-          <label for="message block" class="">Talk to Us</label>
+          <label for="message block" class="">Message Me</label>
           <textarea
             class="py-1 font-semibold block text-md text-primary-dark"
             name="Subject"
